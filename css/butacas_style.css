@@ -1,0 +1,29 @@
+.butacas-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Cambia el número 10 según la cantidad de butacas por fila */
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.butaca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butaca label {
+    cursor: pointer;
+}
+
+.fondo_pantalla {
+    background-color: rgb(217, 229, 238);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pantalla {
+    text-align: center;
+    font-weight: bold;
+}
